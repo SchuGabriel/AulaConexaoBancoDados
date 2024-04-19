@@ -1,6 +1,6 @@
 <?php
 
-define("HOST", "localhost");
-define("BASE", "veiculos");
-define("USER", "root");
-define("PASS", "");
+define("HOST","localhost");
+define("BASE","rankclientes");
+define("USER","root");
+define("PASS","");
