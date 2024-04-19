@@ -2,7 +2,7 @@
 
 //Criar a instância do PDO
 
-$pdo = new PDO("mysql:host=localhost;dbname=rankclientes", "root", "");
+$pdo = new PDO("mysql:host=localhost;dbname=Automoveis", "root", "");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 // Listar os carros
