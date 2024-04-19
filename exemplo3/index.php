@@ -18,7 +18,11 @@
             <th>Ano</th>
             <th>Placa</th>
             <th>Cor</th>
+<<<<<<< HEAD
             <th>Editar</th>
+=======
+            <th>Ex</th>
+>>>>>>> eacfe5a80c050c393110be9e29fad5c743f35a7d
         </tr>
         <?php
             require_once("Config.php");
@@ -33,8 +37,14 @@
                 echo "<td>" .$carro["ano"]."</td>";
                 echo "<td>" .$carro["placa"]."</td>";
                 echo "<td>" .$carro["cor"]."</td>";
+<<<<<<< HEAD
                 echo "<th><a href='editar.php?id=".$carro["id"]."'>Editar</a></th>";
                 echo "</tr>";
+=======
+                echo "<th><a href='excluir.php?id=".$carro["id"]."'>Ex</a></th>";
+                echo "</tr>";
+
+>>>>>>> eacfe5a80c050c393110be9e29fad5c743f35a7d
             }
         ?>
     </table>
